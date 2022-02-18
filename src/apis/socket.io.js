@@ -1,6 +1,6 @@
 import { io } from 'socket.io-client';
 
-const socket = io.connect('http://localhost:8001', {
+const socket = io.connect('https://sheltered-wave-17450.herokuapp.com/', {
 	transportOptions: {
 		polling: {
 			extraHeaders: {
